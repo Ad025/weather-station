@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Weather station Application",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
