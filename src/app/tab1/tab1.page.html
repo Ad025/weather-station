@@ -8,10 +8,11 @@
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
+    <ion-card *ngFor="let activity of (activityList | async)"></ion-card>
+ 
+
   </ion-header>
+
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
